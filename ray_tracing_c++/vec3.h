@@ -1,5 +1,6 @@
 #ifndef VEC3_H
 #define VEC3_H
+
 #include <cmath>
 #include <iostream>
 
@@ -52,7 +53,7 @@ class vec3 {
 using point3 = vec3;   // 3D point
 using color = vec3;    // RGB color
 
-#endif
+
 // vec3 Utility Functions
 
 inline std::ostream& operator<<(std::ostream &out, const vec3 &v) {
@@ -98,3 +99,6 @@ inline vec3 cross(const vec3 &u, const vec3 &v) {
 inline vec3 unit_vector(vec3 v) {
     return v / v.length();
 }
+
+
+#endif
