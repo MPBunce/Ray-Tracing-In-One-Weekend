@@ -8,6 +8,7 @@ Compile Command for main.cpp:
 
 ```g++ -std=c++17 -g main.cpp -o main```
 
+Then run ```main.exe > image.ppm```
 
 Compile Command for main.rs:
 
